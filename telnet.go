@@ -435,8 +435,8 @@ func sendHoneypotWebhook(host, username, password, output string, reasons []stri
         },
     }
     payloadStruct := DiscordWebhook{
-        Username:  "Telnet Scanner",
-        AvatarURL: "https://i.imgur.com/DIvu3F0.png",
+        Username:  "[ 3 ] TELNET SCANNER",
+        AvatarURL: "https://media.tenor.com/pdX9YTI4_eoAAAAM/cat-cat-with-tongue.gif",
         Embeds:    []DiscordEmbed{embed},
     }
     jsonPayload, _ := json.Marshal(payloadStruct)
